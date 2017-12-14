@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
                     REQUEST_CODE_READ_CONTACT);
         } else {
             // yeayy your apps persmission granted
-
             Toast.makeText(this, "Aplikasi sudah dizinkan", Toast.LENGTH_SHORT).show();
         }
     }
